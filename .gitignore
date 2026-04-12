@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+*.swo
+
+# Local secrets and scratch files
+jwt-token.txt
+*.env
+*.local
+
+# Python cache
+__pycache__/
+*.pyc
