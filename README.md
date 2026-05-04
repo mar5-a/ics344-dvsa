@@ -8,24 +8,22 @@ Use the Word/Google Docs report as the polished deliverable, and use this repo t
 - raw screenshots and logs
 - exact commands used
 - lesson-by-lesson notes
-- supporting scripts
 
 ## Suggested workflow
 
 1. Reproduce one lesson.
-2. Save raw evidence under `evidence/lesson-XX-*`.
-3. Apply the fix and save code/config notes under that lesson folder and `fixes/` if needed.
-4. Update the Word report using `report/LESSON_TEMPLATE.md`.
-5. Mark progress in `report/LESSON_STATUS.md`.
+2. Save raw evidence under `evidence/lesson X`.
+3. Apply the fix and save code/config notes under that lesson folder.
+4. Keep the final written report in `report/` when it is ready.
+5. Keep the final slide deck in `presentation/`.
 
 ## Repository layout
 
-- `report/` working templates and planning files for the final write-up
+- `report/` final written report output when ready
+- `presentation/` final slide deck
 - `evidence/` raw screenshots, notes, and code snippets per lesson
-- `fixes/` consolidated diffs, patches, or exported code changes
-- `scripts/` helper scripts used during testing or verification
-- `notes/` team workflow and project-level notes
 
 ## Security note
 
 `jwt-token.txt` is intentionally ignored so local tokens do not get committed into the repository.
+The course handout PDFs are also ignored because the submitted repo should focus on the team's evidence and fixes.

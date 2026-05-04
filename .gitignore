@@ -7,6 +7,14 @@ jwt-token.txt
 *.env
 *.local
 
+# Course handout PDFs kept locally, not in repo
+Helper Guide.pdf
+Project Description.pdf
+
+# Older/generated presentation drafts kept locally
+ICS344_DVSA_Presentation.pptx
+ICS344_Lesson7_OneSlide.pptx
+
 # Python cache
 __pycache__/
 *.pyc
