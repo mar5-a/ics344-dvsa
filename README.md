@@ -1,29 +1,38 @@
 # ICS344 DVSA Project
 
-This repository is organized for a report-first workflow.
+Final repository for the ICS344 DVSA course project.
 
-Use the Word/Google Docs report as the polished deliverable, and use this repo to store:
+This repo is organized around the submitted report and presentation, with lesson-by-lesson evidence kept for verification and traceability.
 
-- code and configuration changes
-- raw screenshots and logs
-- exact commands used
-- lesson-by-lesson notes
+## Final deliverables
 
-## Suggested workflow
+- `report/ICS344_Final_Report.pdf` final written report
+- `presentation/ICS344_DVSA_Final_Presentation.pdf` final slide deck
+- `evidence/` raw evidence, commands, observations, screenshots, and code snippets for lessons 1-10
 
-1. Reproduce one lesson.
-2. Save raw evidence under `evidence/lesson X`.
-3. Apply the fix and save code/config notes under that lesson folder.
-4. Keep the final written report in `report/` when it is ready.
-5. Keep the final slide deck in `presentation/`.
+## Evidence layout
 
-## Repository layout
+Each lesson folder uses the same structure:
 
-- `report/` final written report output when ready
-- `presentation/` final slide deck
-- `evidence/` raw screenshots, notes, and code snippets per lesson
+- `screenshots/` terminal, browser, AWS Console, CloudWatch, IAM, or service screenshots
+- `notes/` commands used, observations, and validation notes
+- `code/` fix snippets, policy snippets, or screenshots of relevant code/configuration changes
 
-## Security note
+Lesson folders:
 
-`jwt-token.txt` is intentionally ignored so local tokens do not get committed into the repository.
-The course handout PDFs are also ignored because the submitted repo should focus on the team's evidence and fixes.
+- `evidence/lesson 1` Event Injection
+- `evidence/lesson 2` Broken Authentication
+- `evidence/lesson 3` Sensitive Data Exposure
+- `evidence/lesson 4` Insecure Cloud Configurations
+- `evidence/lesson 5` Broken Access Control
+- `evidence/lesson 6` Denial of Service
+- `evidence/lesson 7` Over-Privileged Functions
+- `evidence/lesson 8` Logic Vulnerabilities
+- `evidence/lesson 9` Vulnerable Dependencies
+- `evidence/lesson 10` Unhandled Exceptions
+
+## Repository scope
+
+The final report and slide deck are the polished submission artifacts. The evidence folders support the report by preserving the commands, outputs, screenshots, and fix references used during the project.
+
+This repository does not include local secrets, JWT tokens, draft slide decks, or course handout PDFs. Those files are intentionally ignored in `.gitignore`.
